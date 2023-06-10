@@ -9,14 +9,14 @@ body{
 
 
 .container-fluid {
- 	padding: 2% 12% 30%;
+ 	padding: 2% 12% 80%;
 
 }
 
 h1 {
   font-family: 'Luckiest Guy';
   font-weight: bolder;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   line-height: 1.4;
   margin-top: 2rem;
 }
@@ -31,7 +31,7 @@ a:hover {
   color: #67dfc1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
 h1 {text-align: center;}
 }
 
@@ -39,12 +39,12 @@ h1 {text-align: center;}
 
 .navbar-brand {
   font-family: 'Ubuntu';
-  font-size: 2.5rem;
+  font-size: 1.4rem;
   font-weight: bold;
  }
 
  .navbar-brand img {
-   width: 13%;
+   width: 20%;
    margin-right: 3%;
  }
 
@@ -76,7 +76,7 @@ h1 {text-align: center;}
  uncomment the transform rotate and return width to 60% and remove the inlin style on container fluid*/
 
 .title-image{
-  width: 50%;
+  width: 80%;
   /* transform: rotate(20deg); */
 }
 
@@ -187,7 +187,7 @@ h1 {text-align: center;}
 }
 
 .press-logo{
-  width: 16%;
+  width: 30%;
   margin: 0 3%;
 }
 
